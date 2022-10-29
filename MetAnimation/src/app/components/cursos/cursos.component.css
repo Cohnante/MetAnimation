@@ -1,0 +1,9 @@
+body{
+  background-color: aqua;
+}
+
+.main-cursos{
+  border: 2px solid hotpink;
+  display: flex;
+  justify-content: center;
+}

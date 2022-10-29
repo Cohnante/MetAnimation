@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+}
+
+.toolbar-main{
+  border-color: black;
+  border: 2px solid black;
+  width: auto;
+  height: 50px;
+  display: flex;
+  margin: 2.5px;
+  justify-content: space-between;
+}
+
+.toolbar-Nav{
+  border: 1px  solid black;
+}
+
+.div-Sesion {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.Question{
+  border: 1px solid black;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
