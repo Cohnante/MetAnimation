@@ -1,0 +1,23 @@
+.void{
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-nav{
+  width: 150px;
+  height: 500px;
+  background-color: transparent;
+  margin: 1.5px;
+}
+
+.side-nav-container{
+  background-color: transparent;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.Main-information{
+  width: 1500px;
+  height: 500px;
+  margin: 8px;
+}

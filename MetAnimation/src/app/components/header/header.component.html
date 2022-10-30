@@ -1,20 +1,30 @@
 <mat-toolbar class="toolbar-main">
   <div>
-    <h2> <mat-icon>circle</mat-icon>{{title}}</h2>
+    <a href="" class="Links">{{title}}</a>
   </div>
 
   <div class="div-Sesion">
-    <a href=""><u>Login/</u></a>
-    <a href=""><u>Register</u></a>
-    <mat-icon class="Question">?</mat-icon>
+    <a href="login" class="Links">Login/</a>
+    <a href="register" class="Links">Register</a>
+    <button [routerLink]="['questions']" class="Question">
+      ?
+    </button>
   </div>
+
 </mat-toolbar>
 
 <mat-toolbar class="toolbar-Nav">
-  <h2>NavBar</h2>
-  <div>
-    <button routerLink="cursos">
+  <mat-progress-bar mode="buffer"></mat-progress-bar>
+  <div class="Btn-Link">
+    <button routerLink="cursos" class="btns">
       cursos
     </button>
+    <button routerLink="pay" class="btns">
+      membresia
+    </button>
+    <button routerLink="perfil" class="btns">
+      perfiles
+    </button>
   </div>
+  <mat-progress-bar mode="buffer"></mat-progress-bar>
 </mat-toolbar>
