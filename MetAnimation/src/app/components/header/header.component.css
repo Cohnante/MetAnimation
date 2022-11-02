@@ -2,6 +2,13 @@
   padding: 0;
 }
 
+.void-main{
+  margin: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .toolbar-main{
   border-color: black;
   width: auto;
@@ -22,7 +29,6 @@
 }
 
 .div-Sesion {
-  width: 30%;
   display: flex;
   align-items: center;
 }

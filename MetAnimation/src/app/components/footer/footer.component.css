@@ -1,10 +1,22 @@
 mat-toolbar{
   background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
+  height:auto;
+  justify-content: space-between;
   font-size: 15px;
+  border: 1px solid black;
 }
 
+.Main-descrip{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: auto;
+  border: 1px solid black;
+  width: 500px;
+  height: auto;
+  padding:5px ;
+}
 .Links{
   text-decoration: none;
   color: antiquewhite;
@@ -12,19 +24,42 @@ mat-toolbar{
 
 .Links-menu{
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid black;
+  padding: 5px;
 }
 
 .Main-input{
+  padding:5px ;
+  margin: 5px;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  width: 1000px;
+  width: 500px;
+  height: auto;
   border: 1px solid black;
 }
 
 
 .Inputs{
-  width: 100px;
+  background-color: bisque;
+  border: 0.5px solid black;
+  width: auto;
+}
+
+#input-Comen{
+  width: auto;
+  height: 100px;
+  display: flex;
+}
+
+.Main-input button{
+  border: 1px solid black;
+  box-shadow: 2px 2px 1px black;
+} 
+
+.Div-Btn{
+  padding: 10px;
+  display: flex;
+  justify-content: right;
 }
