@@ -9,3 +9,22 @@ mat-toolbar{
   text-decoration: none;
   color: antiquewhite;
 }
+
+.Links-menu{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.Main-input{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  border: 1px solid black;
+}
+
+
+.Inputs{
+  width: 100px;
+}

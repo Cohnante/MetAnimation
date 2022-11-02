@@ -13,8 +13,8 @@ const routes: Routes = [
   {path: 'perfil',component:PerfilesComponent},
   {path: 'questions',component:QuesAnDudComponent},
   {path: 'pay',component:MembresiaComponent},
-  {path: 'login',component:LoginComponent},
-  {path:'register', component:RegisterComponent},
+  {path: 'perfil/login',component:LoginComponent},
+  {path:'perfil/register', component:RegisterComponent},
   {path: '**', component: LobbyComponent}
 ];
 
