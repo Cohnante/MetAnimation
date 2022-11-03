@@ -1,6 +1,6 @@
 .void{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .side-nav{
@@ -11,7 +11,7 @@
 }
 
 .side-nav-container{
-  border: 1px solid beige;  
+  border: 1px solid beige;
   background-color: transparent;
   color: aliceblue;
   padding: 10px;
@@ -19,9 +19,6 @@
 }
 
 .Main-information{
-  display: block;
-  justify-content: center;
-  align-items: center;
   width: 1500px;
   height: 530px;
   margin: 10px;

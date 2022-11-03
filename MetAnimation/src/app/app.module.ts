@@ -16,6 +16,7 @@ import { LoginComponent } from './components/perfiles/login/login.component';
 import { RegisterComponent } from './components/perfiles/register/register.component';
 import { MatProgressBarModule} from '@angular/material/progress-bar';
 import { LobbyComponent } from './components/lobby/lobby.component';
+import { NoticiasComponent } from './components/noticias/noticias.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { LobbyComponent } from './components/lobby/lobby.component';
     MembresiaComponent,
     LoginComponent,
     RegisterComponent,
-    LobbyComponent
+    LobbyComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
