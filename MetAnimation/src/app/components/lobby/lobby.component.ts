@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import SwiperCore, { EffectCoverflow, SwiperOptions,Virtual, Navigation } from 'swiper';
+import SwiperCore, { EffectCoverflow, SwiperOptions,Virtual, Navigation} from 'swiper';
 
 SwiperCore.use([EffectCoverflow,Virtual,Navigation]);
 @Component({
@@ -14,9 +14,10 @@ export class LobbyComponent implements OnInit {
     effect: 'coverflow',
     coverflowEffect: {
       rotate: 40,
-      slideShadows: true
+      slideShadows: true,
     },
-    navigation:true
+    navigation:true,
+    loop: true,
   };
     
   constructor() { }
