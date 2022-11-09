@@ -1,6 +1,7 @@
 mat-toolbar{
   background-color: transparent;
   display: flex;
+  width: auto;
   height:auto;
   justify-content: space-around   ;
   font-size: 15px;

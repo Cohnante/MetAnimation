@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import SwiperCore, { EffectCoverflow, EffectFade, EffectFlip, Swiper,Virtual } from 'swiper';
+import SwiperCore, { EffectCoverflow, SwiperOptions,Virtual, Navigation } from 'swiper';
 
-SwiperCore.use([EffectCoverflow]);
-SwiperCore.use([Virtual]);
+SwiperCore.use([EffectCoverflow,Virtual,Navigation]);
 @Component({
   selector: 'app-lobby',
   templateUrl: './lobby.component.html',
@@ -10,6 +9,16 @@ SwiperCore.use([Virtual]);
 })
 export class LobbyComponent implements OnInit {
 
+  config: SwiperOptions = {
+    slidesPerView:3,
+    effect: 'coverflow',
+    coverflowEffect: {
+      rotate: 40,
+      slideShadows: true
+    },
+    navigation:true
+  };
+    
   constructor() { }
 
   ngOnInit(): void {

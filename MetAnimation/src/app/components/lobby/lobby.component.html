@@ -1,19 +1,18 @@
 <div class="Carrucel">
-
   <div class="center">
-    <swiper [slidesPerView]="3" effect="coverflow">
+    <swiper  [config]="config">
       
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
 
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
 
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
 
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
 
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
 
-      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt="" [width]="150" [height]="300"></ng-template>
     </swiper>
   </div>
   <div class="Text-Carrucel">
@@ -21,8 +20,80 @@
   </div>
 </div>
 
-<div class="void">
+<div class="Videos-Container">
+  <div class="Video-1"> 
+    <video src="../../../assets/y2mate.com - FiASKO  Nu Demon アークマ free download_1080p.mp4" [width]="300" [height]="500" controls></video>
+    <h2>Curso 1</h2>
+  </div>
+  <div class="Video-2">
+    <video src="../../../assets/y2mate.com - FiASKO  Nu Demon アークマ free download_1080p.mp4"[width]="300" [height]="500" controls></video>
+    <h2>Curso 2</h2>
+  </div>
+</div>
 
-  
+<div class="Noticies-Main">
+  <button class="Btn-add-Noticie"><mat-icon>add</mat-icon></button>
+    <div class="Noticie-1">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2>
+        Noticies 1
+      </h2>
+    </div>
+    <div class="Noticie-2">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2>
+        Noticies 2
+      </h2>
+    </div>
+  <button class="Btn-add-Noticie"><mat-icon>add</mat-icon></button>
+</div>
 
+<div class="Category-Option-Main">
+  <div class="Category-Option-Container">
+
+    <div class="Category-1">
+      <button class="btn-category">1</button>
+    </div>
+    <div class="Category-2">
+      <button class="btn-category">2</button>
+    </div>
+    <div class="Category-3">
+      <button class="btn-category">3</button>
+    </div>
+    <div class="Category-4">
+      <button class="btn-category">4</button>
+    </div>
+    <div>
+      <select name="Categoria">
+        <option value="value1">Categoria 1</option>
+        <option value="value1">Categoria 2</option>
+        <option value="value1">Categoria 3</option>
+        <option value="value1">Categoria 4</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="Person-Container-Main">
+  <div class="Person-Container-1">
+    <div class="P-Container-1">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2><a href="perfil">Person 1</a></h2>
+    </div>
+    <div class="P-Container-2">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2><a href="perfil">Person 2</a></h2>
+    </div>
+  </div>
+  <div class="Person-Container-2">
+    <div class="P-Container-3">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2><a href="perfil">Person 3</a></h2>
+    </div>
+    <div class="P-Container-4">
+      <img src="../../../assets/Number-1.png" [width]="150" [height]="150">
+      <h2><a href="perfil">Person 4</a></h2>
+    </div>
+  </div>
+    
 </div>
