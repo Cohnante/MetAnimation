@@ -1,35 +1,32 @@
+*{
+  user-select: none;
+}
+
 .void{
   display: flex;
   justify-content: space-evenly;
 }
 
-.side-nav{
-  width: 150px;
-  height: 500px;
-  background-color: transparent;
-  margin: 1.5px;
-}
-
-.side-nav-container{
-  border: 1px solid beige;
-  background-color: transparent;
-  color: aliceblue;
-  padding: 10px;
-  margin: 10px;
-}
-
-.Main-information{
-  width: 1500px;
-  height: 530px;
-  margin: 10px;
-  border: 1px solid black;
-}
-
-
 .Carrucel{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.Text-Carrucel{
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  width: 1000px;
 }
 
 .slide {

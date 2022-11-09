@@ -1,88 +1,28 @@
 <div class="Carrucel">
 
-  <div class="slide">
-    <div class="slide-inner">
-        <input class="slide-open" type="radio" id="slide-1"
-              name="slide" aria-hidden="true" hidden="" checked="checked">
-        <div class="slide-item">
-          <h1>Slide 1</h1>
-        </div>
-        <input class="slide-open" type="radio" id="slide-2"
-              name="slide" aria-hidden="true" hidden="">
-        <div class="slide-item">
-          <h1>Slide 2</h1>
-        </div>
-        <input class="slide-open" type="radio" id="slide-3"
-              name="slide" aria-hidden="true" hidden="">
-        <div class="slide-item">
-           <h1>Slide 3</h1>
-        </div>
-        <label for="slide-3" class="slide-control prev control-1">‹</label>
-        <label for="slide-2" class="slide-control next control-1">›</label>
-        <label for="slide-1" class="slide-control prev control-2">‹</label>
-        <label for="slide-3" class="slide-control next control-2">›</label>
-        <label for="slide-2" class="slide-control prev control-3">‹</label>
-        <label for="slide-1" class="slide-control next control-3">›</label>
-        <ol class="slide-indicador">
-            <li>
-                <label for="slide-1" class="slide-circulo">•</label>
-            </li>
-            <li>
-                <label for="slide-2" class="slide-circulo">•</label>
-            </li>
-            <li>
-                <label for="slide-3" class="slide-circulo">•</label>
-            </li>
-        </ol>
-    </div>
-</div>
+  <div class="center">
+    <swiper [slidesPerView]="3" effect="coverflow">
+      
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
 
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+
+      <ng-template swiperSlide><img src="../../../assets/Number-1.png" alt=""></ng-template>
+    </swiper>
+  </div>
+  <div class="Text-Carrucel">
+    <h3>Text Carrucel</h3>
+  </div>
 </div>
 
 <div class="void">
 
-  <div class="side-nav">
-    <mat-sidenav-container class="side-nav-container">
-      <dl>
-        <dt>
-          1 Opcion
-        </dt>
-        <dd>1 Results</dd>
-        <dd>2 Results</dd>
-        <dt>
-          2 Opcion
-        </dt>
-        <dd>3 Results</dd>
-        <dd>4 Results</dd>
-        <dt>
-          3 Opcion
-        </dt>
-        <dd>5 Results</dd>
-        <dd>6 Results</dd>
-        <dd>7 Results</dd>
-        <dd>8 Results</dd>
-        <dt>
-          4 Opcion
-        </dt>
-        <dd>9 Results</dd>
-        <dd>10 Results</dd>
-      </dl>
-    </mat-sidenav-container>
-  </div>
+  
 
-  <div class="Main-information">
-      <h1>Aca va una corta descripcion del proyecto</h1>
-    <div>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus amet explicabo eaque in perferendis exercitationem est, nihil deserunt modi, animi neque qui molestiae. Sit, exercitationem architecto? Quam similique quo iusto!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni voluptas illum saepe, aut exercitationem, ratione corporis unde corrupti delectus distinctio voluptatem quis quisquam placeat commodi possimus incidunt, qui necessitatibus!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dicta? Quam commodi aliquam accusamus nesciunt excepturi temporibus vitae aliquid, libero obcaecati adipisci aperiam? Praesentium repellendus iste natus! Labore, laboriosam impedit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos exercitationem quis eum blanditiis eveniet cumque ut illo quam, quisquam sed placeat pariatur veritatis neque quibusdam rem hic minus minima!
-      </p>
-    </div>
-  </div>
 </div>

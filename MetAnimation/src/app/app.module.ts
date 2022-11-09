@@ -14,9 +14,9 @@ import { QuesAnDudComponent } from './components/ques-an-dud/ques-an-dud.compone
 import { MembresiaComponent } from './components/membresia/membresia.component';
 import { LoginComponent } from './components/perfiles/login/login.component';
 import { RegisterComponent } from './components/perfiles/register/register.component';
-import { MatProgressBarModule} from '@angular/material/progress-bar';
 import { LobbyComponent } from './components/lobby/lobby.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
+import {SwiperModule} from 'swiper/angular';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +38,7 @@ import { NoticiasComponent } from './components/noticias/noticias.component';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatProgressBarModule  
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
