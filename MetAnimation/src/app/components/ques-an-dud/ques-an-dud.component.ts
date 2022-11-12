@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuesAnDudComponent implements OnInit {
 
+  InProgress= ()=>{
+    alert('En Proceso');
+  }
+
   constructor() { }
 
   ngOnInit(): void {

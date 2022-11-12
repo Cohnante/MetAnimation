@@ -1,9 +1,85 @@
-body{
-  background-color: aqua;
+.main-cursos{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  width: auto;
+  height: 500px;
 }
 
-.main-cursos{
-  border: 2px solid hotpink;
-  display: flex;
-  justify-content: center;
+.cursos-div{
+  width: auto;
+  margin: 10px;
 }
+
+
+.Column-First-Curso{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Column-Second-Curso{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Column-Three-Curso{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ComboBox-Curso{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  border-left: 2px solid black;
+}
+
+.Select-Categoria{
+  margin: 10px;
+}
+
+.Select-Time{
+  margin: 10px;
+}
+
+.Select-Coste{
+  margin: 10px;
+}
+
+.Div-Input{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Input-Search{
+  width: 1000px;
+  margin-left: 280px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.Btn-Search{
+  border: 0px;
+  background-color: transparent;
+}
+
+.Btn-Search-ComboBox{
+  border: 1px solid black;
+  border-radius: 100px;
+  margin: 10px;
+  background-color: transparent;
+}
+

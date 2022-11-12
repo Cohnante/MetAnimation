@@ -1,4 +1,7 @@
 @import '~swiper/swiper-bundle';
+*{
+  user-select: none;
+}
 
 app-root{
   height: 100%;

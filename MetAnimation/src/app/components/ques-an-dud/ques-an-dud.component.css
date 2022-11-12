@@ -1,0 +1,92 @@
+.Head-Questions{
+  display: flex;
+  margin: 10px;
+}
+
+.Body-Questions{
+  margin: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.ComboBox-Questions{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-right: 110px;
+  border-right: 1px  solid black;
+}
+
+.ComboBox-Questions select{
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.CheckBox{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.CheckBox mat-checkbox{
+  margin: 5px;
+}
+
+.Input-btn-search{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Input-btn-search button{
+  border: 0px;
+  border-radius: 100px;
+  background-color: transparent ;
+}
+
+.Input-btn-search input{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 500px;
+  text-align: center;
+}
+
+.Div-Coments{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.Div-Coments input{
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.Div-Coments textarea{
+  width: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1.5px solid black;
+}
+
+.Div-Coments button{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px black;
+}
+
+.Main-Noticies{
+  display: flex;
+  flex-direction: column;
+}
+

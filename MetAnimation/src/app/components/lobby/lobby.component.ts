@@ -17,9 +17,9 @@ export class LobbyComponent implements OnInit {
       slideShadows: true,
     },
     navigation:true,
-    loop: true,
+    loop: true
   };
-    
+
   constructor() { }
 
   ngOnInit(): void {

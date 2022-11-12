@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
-  constructor() { }
+  InProgress = ()=>{
+    alert('En Processo');
+  }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
 }
+
