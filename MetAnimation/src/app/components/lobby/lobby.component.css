@@ -1,7 +1,9 @@
 *{
   user-select: none;
 }
-
+main{
+  margin-top: 114px;
+}
 
 .Carrucel{
   display: flex;

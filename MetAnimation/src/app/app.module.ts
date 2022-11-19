@@ -18,6 +18,7 @@ import { RegisterComponent } from './components/perfiles/register/register.compo
 import { LobbyComponent } from './components/lobby/lobby.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import {SwiperModule} from 'swiper/angular';
+
 @NgModule({
   declarations: [
     AppComponent,

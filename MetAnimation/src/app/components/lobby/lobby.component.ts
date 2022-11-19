@@ -18,7 +18,7 @@ export class LobbyComponent implements OnInit {
     },
     navigation:true,
     loop: true
-  };
+  };  
 
   constructor() { }
 
