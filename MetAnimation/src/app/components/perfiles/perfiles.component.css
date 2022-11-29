@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-image: url("../../../assets/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-principal{
+    width: 100%;
+    height: 60rem;
+    padding-bottom: 3rem;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    justify-content: center;
+    margin: 10px 150px;
+    padding: 10px;
+    min-height: 30vh;
+    margin-bottom:10vh ;
+}
+.perfiles{
+    background: rgb(164,237,229);
+background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
+   border-radius: 15px;
+    padding: 20px;
+    margin-top: 5rem;
+    width: 30vh;
+    height: 40vh; 
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Audiowide", sans-serif;
+    
+}
+
+
+h3{
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.img-perfil{
+    width: 110px;
+    height: 115px;
+    border-radius: 80px;
+    margin-left: 30%;
+}
+
+.next{
+    width: 40px;
+    height: 40px;
+    margin-top: 30vh;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-left: 12%;
+    padding: 5px;
+}
