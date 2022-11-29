@@ -6,9 +6,6 @@ body{
     font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    background-image: url("../../../assets/fondo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 114px;
 }
 
@@ -35,7 +32,8 @@ section{
     padding: 20px;
     margin-top: 5rem;
     width: 30vh;
-    height: 40vh; 
+    height: auto; 
+    margin-bottom: 60px;
 }
 
 h2{

@@ -14,7 +14,7 @@ app-root{
 }
 
 html, body { 
-  background: url("../src/assets/fondo.jpg") no-repeat fixed ;
+  background: url("../src/assets/fondo.jpg") no-repeat fixed center;
   height: 100%;
 }
 body { 

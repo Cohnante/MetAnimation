@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('../../../../assets/fondologin.png');
-background-size: cover;
-background-repeat: no-repeat;
-min-height: 120vh;
 font-family: "Audiowide", sans-serif;
 margin-top: 114px;
 }

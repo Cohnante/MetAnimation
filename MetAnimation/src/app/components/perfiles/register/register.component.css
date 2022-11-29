@@ -129,12 +129,9 @@
     font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    background-image: url("../../../../assets/fondo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 50vh;
-  font-family: 'Numans', sans-serif;
-  margin-top: 114px;
+    min-height: 50vh;
+    font-family: 'Numans', sans-serif;
+    margin-top: 114px;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -377,3 +374,9 @@
   }
   
   
+.Section{
+  border: 0px ;
+  background-color: transparent;
+  width: 300px;
+  color: #ccc;
+}

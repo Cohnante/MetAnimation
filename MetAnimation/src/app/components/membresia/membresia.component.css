@@ -1,10 +1,4 @@
 body {
-    background: url("../../../assets/fondo.jpg") no-repeat center center fixed;
-    background-color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     margin-top: 114px;
 }
 
@@ -15,16 +9,15 @@ body {
     padding: 10px;
     min-height: 30vh;
     margin-bottom:10vh;
-    
 }
 
 .card{
     background: rgb(164,237,229);
     background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
     padding: 20px;
-    margin-top: 5rem;
-    width: 50vh;
-    height: 60vh;
+    width: auto;
+    margin: 10px;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -47,12 +40,13 @@ h2{
     padding: 20px;
 }
 .text{
-width: 50%;
-justify-content: center;
-text-align: center;
-margin-left: 30rem;
-font-weight: bold;
-background: rgb(164,237,229);
-background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
-border-radius: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25rem;
+    font-weight: bold;
+    background: rgb(164,237,229);
+    background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
+    border-radius: 20px;
 }
