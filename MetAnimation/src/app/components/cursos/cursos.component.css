@@ -1,13 +1,14 @@
 .main-cursos{
   display: flex;
   justify-content: space-evenly;
-  margin: 10px;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 
 main{
   margin-top: 114px;
+  background: url("../../../assets/fondo.jpg") no-repeat fixed ;
+  
 }
 
 .cursos-div{
@@ -65,18 +66,21 @@ main{
 .Div-Input{
   display: flex;
   flex-direction: row;
-
 }
 
 .Input-Search{
   width: 1000px;
   margin-left: 280px;
+  margin-top: 5px;
   border-radius: 100px;
   text-align: center;
 }
 
 .Btn-Search{
-  border: 0px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: aliceblue;
   background-color: transparent;
 }
 

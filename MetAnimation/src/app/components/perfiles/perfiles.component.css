@@ -9,6 +9,7 @@ body{
     background-image: url("../../../assets/fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 114px;
 }
 
 .img-principal{
@@ -29,8 +30,8 @@ section{
 }
 .perfiles{
     background: rgb(164,237,229);
-background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
-   border-radius: 15px;
+    background: linear-gradient(50deg, rgba(164,237,229,0.6502976190476191) 5%, rgba(173, 129, 159, 0.72) 70%, rgba(131,242,255,0.4150035014005602) 150%);
+    border-radius: 15px;
     padding: 20px;
     margin-top: 5rem;
     width: 30vh;

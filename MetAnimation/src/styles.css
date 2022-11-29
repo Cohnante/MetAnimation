@@ -1,6 +1,9 @@
 @import '~swiper/swiper-bundle';
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
 *{
   user-select: none;
+  
 }
 
 app-root{
@@ -11,9 +14,9 @@ app-root{
 }
 
 html, body { 
+  background: url("../src/assets/fondo.jpg") no-repeat fixed ;
   height: 100%;
 }
 body { 
   margin: 0; 
-  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

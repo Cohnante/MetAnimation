@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
 *{
   padding: 0;
   font-family: "Audiowide", sans-serif;
+  font-weight: bold;
   font-size: 20px;
 }
+
 header {
   position: fixed;
   width: 100%;
@@ -21,11 +26,14 @@ header {
   height: 50px;
   display: flex;
   justify-content: space-between;
+  background-color: transparent ;
 }
 
 .toolbar-Nav{
   display: flex;
   justify-content: center;
+  background-color: transparent ;
+  border-bottom: 2px solid rgb(5, 5, 5);
 }
 
 .div-Sesion {
@@ -34,14 +42,14 @@ header {
 }
 
 .Question{
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(5, 5, 5);
   border-radius: 100px;
   display: flex;
   justify-content: center;
   height: 30px;
   width: 30px;
   font-size: 20px;
-  color: rgb(252, 250, 250);
+  color: rgb(0, 0, 0);
   margin: 10px;
 }
 button{
@@ -50,7 +58,7 @@ button{
 }
 
 .Links{
-  color: rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -63,10 +71,4 @@ button{
   justify-content:space-around;
   width: 1500px;
   height: 30px;
-  border: 1px solid black;
-}
-
-
-mat-progress-bar{
-  width: 850px;
 }

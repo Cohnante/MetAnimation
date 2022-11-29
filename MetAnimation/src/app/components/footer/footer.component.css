@@ -1,11 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+*{
+  font-family: "Audiowide", sans-serif;
+}
+
 mat-toolbar{
   background-color: transparent;
   display: flex;
   width: auto;
   height:auto;
-  justify-content: space-around   ;
+  justify-content: space-around;
   font-size: 15px;
   border: 1px solid black;
+  font-family: "Audiowide", sans-serif;
+  margin-top: 10px;
 }
 
 .Main-descrip{
@@ -16,10 +24,12 @@ mat-toolbar{
   width: 1000px;
   height: 200px;
   padding:5px ;
+  
 }
 .Links{
   text-decoration: none;
   color: antiquewhite;
+  
 }
 
 .Links-menu{
@@ -54,6 +64,7 @@ mat-toolbar{
 .Main-input button{
   border: 1px solid black;
   box-shadow: 3px 3px 1px black;
+  font-family: "Audiowide", sans-serif;
 }
 
 .Div-Btn{
