@@ -16,7 +16,6 @@ import { MembresiaComponent } from './components/membresia/membresia.component';
 import { LoginComponent } from './components/perfiles/login/login.component';
 import { RegisterComponent } from './components/perfiles/register/register.component';
 import { LobbyComponent } from './components/lobby/lobby.component';
-import { NoticiasComponent } from './components/noticias/noticias.component';
 import {SwiperModule} from 'swiper/angular';
 
 @NgModule({
@@ -30,8 +29,7 @@ import {SwiperModule} from 'swiper/angular';
     MembresiaComponent,
     LoginComponent,
     RegisterComponent,
-    LobbyComponent,
-    NoticiasComponent
+    LobbyComponent
   ],
   imports: [
     BrowserModule,

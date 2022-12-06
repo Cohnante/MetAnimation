@@ -1,4 +1,3 @@
-import { NoticiasComponent } from './components/noticias/noticias.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -16,7 +15,6 @@ const routes: Routes = [
   {path: 'pay',component:MembresiaComponent},
   {path: 'perfil/login',component:LoginComponent},
   {path:'perfil/register', component:RegisterComponent},
-  {path: 'Noticia',component:NoticiasComponent},
   {path: '**', component: LobbyComponent}
 ];
 
