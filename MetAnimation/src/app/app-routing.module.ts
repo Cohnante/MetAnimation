@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { PerfilesComponent } from './components/perfiles/perfiles.component';
 import { QuesAnDudComponent } from './components/ques-an-dud/ques-an-dud.component';
 import { MembresiaComponent } from './components/membresia/membresia.component';
-import { LoginComponent } from './components/perfiles/login/login.component';
-import { RegisterComponent } from './components/perfiles/register/register.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 import { LobbyComponent } from './components/lobby/lobby.component';
 
 const routes: Routes = [
@@ -13,8 +13,8 @@ const routes: Routes = [
   {path: 'perfil',component:PerfilesComponent},
   {path: 'questions',component:QuesAnDudComponent},
   {path: 'pay',component:MembresiaComponent},
-  {path: 'perfil/login',component:LoginComponent},
-  {path:'perfil/register', component:RegisterComponent},
+  {path: 'login',component:LoginComponent},
+  {path:'register', component:RegisterComponent},
   {path: '**', component: LobbyComponent}
 ];
 

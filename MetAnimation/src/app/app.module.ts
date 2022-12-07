@@ -13,8 +13,8 @@ import { MatSidenavModule} from '@angular/material/sidenav';
 import { PerfilesComponent } from './components/perfiles/perfiles.component';
 import { QuesAnDudComponent } from './components/ques-an-dud/ques-an-dud.component';
 import { MembresiaComponent } from './components/membresia/membresia.component';
-import { LoginComponent } from './components/perfiles/login/login.component';
-import { RegisterComponent } from './components/perfiles/register/register.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 import { LobbyComponent } from './components/lobby/lobby.component';
 import {SwiperModule} from 'swiper/angular';
 

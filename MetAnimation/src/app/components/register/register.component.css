@@ -361,7 +361,7 @@
   }
   
   .card-3 .card-heading {
-    background: url("../../../../assets/registro.jpeg") top left/cover no-repeat;
+    background: url("../../../assets/registro.jpeg") top left/cover no-repeat;
     display: table-cell;
     width: 50%;
 
